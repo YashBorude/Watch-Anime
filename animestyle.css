@@ -1,0 +1,127 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color:  black;
+}
+header{
+    background: linear-gradient(90deg, #9400D3 0%, #4B0082 100%);
+}
+.icon{
+    width: 100px;
+    height: 50px;
+}
+.alien{
+    display: flex;
+    justify-content: space-between;
+}
+.ser{
+    background-color: rgb(145, 230, 179);
+}
+nav{
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.left,.right{
+    align-items: center;
+    justify-content: center;
+}
+/* New Part */
+.st{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+
+}
+.nom_ani{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card{
+    margin-top: 20px;
+    height: 450px;
+}
+.card-link{
+    text-decoration: none;
+    color: black;
+}
+.ani_movies{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.mov{
+    width: 20vw;
+}
+.movie{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+.movcard{
+    box-sizing: border-box;
+    background-color: aliceblue;
+    width: 20vw;
+    height: 320px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.movimg img{
+    width: 100%;
+}
+.movnam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movicons{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 14px;
+}
+.movicons_e{
+    margin: 0;
+    padding: 0;
+}
+.movicons_e i{
+    margin: 0;
+    padding:0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: rgb(50, 48, 48);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.topic{
+    color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.topic h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic i{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:0 10px ;
+}
