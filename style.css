@@ -1,0 +1,75 @@
+body{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-color:  black;
+}
+header{
+    background: linear-gradient(90deg, #9400D3 0%, #4B0082 100%);
+}
+.icon{
+    width: 100px;
+    height: 50px;
+}
+.alien{
+    display: flex;
+    justify-content: space-between;
+}
+.ser{
+    background-color: rgb(145, 230, 179);
+}
+nav{
+    justify-content: space-between;
+    padding: 0 10px;
+    font-size: x-large;
+    font-weight: 600;
+}
+.left,.right{
+    align-items: center;
+    justify-content: center;
+}
+/* New Part */
+.pr{
+    max-width: 75%;
+    margin: 0 20px;
+}
+.cat_m{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.cat{
+    background-image: url(/Stars-wallpaper-HD-desktop.webp);
+    background-size: auto;
+    border-radius: 10px;
+    width: 40vw;
+    height: 300px;
+    margin: 10px;
+}
+.icon_cat{
+    color:#bd6c0d;
+    margin: 5px;
+
+}
+.cat_a{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:#1b1833 ;
+    justify-content: center;
+}
+.cat_e{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: 50px;
+}
+.cat_e a{
+    width: 20vw;
+    background-color: #5657ab;
+}
+.l{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: azure;
+}
